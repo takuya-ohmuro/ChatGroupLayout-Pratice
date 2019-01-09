@@ -12,6 +12,7 @@
 		F800982921E5898900258CC2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F800982721E5898900258CC2 /* Main.storyboard */; };
 		F800982B21E5898F00258CC2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F800982A21E5898F00258CC2 /* Assets.xcassets */; };
 		F800982E21E5898F00258CC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F800982C21E5898F00258CC2 /* LaunchScreen.storyboard */; };
+		F800983621E589E500258CC2 /* ChatMessageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F800983521E589E500258CC2 /* ChatMessageCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F800982A21E5898F00258CC2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F800982D21E5898F00258CC2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F800982F21E5898F00258CC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F800983521E589E500258CC2 /* ChatMessageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessageCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				F800982A21E5898F00258CC2 /* Assets.xcassets */,
 				F800982C21E5898F00258CC2 /* LaunchScreen.storyboard */,
 				F800982F21E5898F00258CC2 /* Info.plist */,
+				F800983521E589E500258CC2 /* ChatMessageCell.swift */,
 			);
 			path = "ChatGroupLayout-Practice";
 			sourceTree = "<group>";
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F800983621E589E500258CC2 /* ChatMessageCell.swift in Sources */,
 				F800982621E5898900258CC2 /* ViewController.swift in Sources */,
 				F800982421E5898900258CC2 /* AppDelegate.swift in Sources */,
 			);
